@@ -39,4 +39,4 @@ rch(yes)->ch->al
 rc(no)->al
 al->e
 ```
-!(https://github.com/HUAImh/git_code/blob/master/flow.png?raw=true)
+![avatar](https://github.com/HUAImh/git_code/blob/master/flow.png?raw=true)
