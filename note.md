@@ -32,11 +32,7 @@ al=>operation: align_regs
 e=>end
 
 st->th
-th->oth->e
+th->oth
 th->cm->csh->ca->al->e
 ```
-
-```mermaid
-graph TD
-    A --> B
-```
+![Aaron Swartz](https://raw.githubusercontent.com/HUAImh/git_code/master/flow.png?token=AKMOPHAFTQJL2GY2MIFOG325IKJJM)
