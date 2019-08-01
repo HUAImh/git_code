@@ -33,5 +33,5 @@ e=>end
 
 st->th
 th->oth->e
-th->cm->csh->ca->al-e
+th->cm->csh->ca->al->e
 ```
