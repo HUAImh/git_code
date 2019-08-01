@@ -35,3 +35,8 @@ st->th
 th->oth->e
 th->cm->csh->ca->al->e
 ```
+
+```mermaid
+graph TD
+    A --> B
+```
