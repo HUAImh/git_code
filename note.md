@@ -27,12 +27,16 @@ th=>operation: thread task assignment
 oth=>operation: other work
 cm=>operation: collect minimizer 
 csh=>operation: collect seed hits
-ca=>operation: chaining
+ch=>operation: chaining
 al=>operation: align_regs
+rch=>condition: rechaining?
 e=>end
 
 st->th
 th->oth
-th->cm->csh->ca->al->e
+th->cm->csh->ca->rch
+rch(yes)->ch->al
+rc(no)->al
+al->e
 ```
-![Aaron Swartz](https://raw.githubusercontent.com/HUAImh/git_code/master/flow.png?token=AKMOPHAFTQJL2GY2MIFOG325IKJJM)
+!(https://github.com/HUAImh/git_code/blob/master/flow.png?raw=true)
